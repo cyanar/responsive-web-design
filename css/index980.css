@@ -1,0 +1,25 @@
+.container{
+    width:970px;
+}
+header nav{
+    display:none;
+}
+header .btn {
+    display:block;
+    cursor:pointer;
+}
+.products .product {
+    width:289px;
+    height: 280px;
+}
+
+.service .demo {
+    width: 212px;
+}
+footer nav dl{
+    float:left;
+    width: 160px;
+}
+footer .info{
+    width: 293px;
+}

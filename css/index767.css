@@ -1,0 +1,55 @@
+body{
+    // overflow:hidden;
+}
+header h1 a{
+    font-size: 16px;
+}
+
+header h1 a::before{
+     width: 105px;
+     height: 50px;
+     background:url("../images/logo2.png") no-repeat 0 0;
+     background-size:100% auto;
+}
+header nav{
+    display:none;
+}
+header .btn {
+    display:block;
+    cursor:pointer;
+    top:13px;
+     right:10px;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing:border-box;
+}
+.products .product {
+    width:100%;
+    height: 280px;
+    margin-bottom:20px;
+}
+.service .demo {
+    width: 40%;
+    margin-left:5%;
+    margin-right: 5%;
+}
+footer {
+    height: 456px;
+}
+footer nav {
+    width: 100%;
+}
+footer nav dl{
+    float:left;
+    width: 50%;
+}
+footer .info{
+    float:left;
+    text-align:center;
+    width: 100%;
+}

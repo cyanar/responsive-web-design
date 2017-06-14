@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/index1200.css">
+    <link rel="stylesheet" type="text/css" href="css/index980.css" media = "screen and (min-width:980px) and (max-width:1199px)">
+   <link rel="stylesheet" type="text/css" href="css/index768.css" media = "screen and (min-width:768px) and (max-width:979px)">
+   <link rel="stylesheet" type="text/css" href="css/index767.css" media = "screen and (max-width:767px)">
+</head>
+<body>
+    <header>
+        <h1 class = "logo"><a href="#">专业合同服务商</a></h1>
+        <nav>
+             <ul>
+                 <li><a href="#">悦读</a></li>
+                 <li><a href="#">悦活动</a></li>
+                 <li><a href="#">写合同</a></li>
+                 <li><a href="#">审合同</a></li>
+                 <li><a href="#">登录</a></li>
+                 <li><a href="#">注册</a></li>
+             </ul>
+        </nav>
+        <div class="nav2">
+             <div class="topnav">
+                 <a href="#">悦读</a>
+                 <a href="#">悦活动</a>
+                 <a href="#">写合同</a>
+                 <a href="#">审合同</a>
+             </div>
+             <div class="bottomnav">
+                 <a href="#">登录</a>
+                 <a href="#">注册</a>
+             </div>
+        </div>
+        <a class="btn">导航</a>
+    </header>
+    <div class="banner">
+        <img src="images/banner.jpg" alt="">
+    </div>
+    <div class="products">
+       <div class="container">
+        <h2>热销产品</h2>
+        <div class="product">
+           <p class="pic"></p>
+           <h3>写合同</h3>
+           <p class="price">原价: <span>1000</span>元/次</p>
+           <p class="nowprice">限时价: <span>238</span>元/次</p>
+        </div>
+        <div class="product product2">
+           <p class="pic"></p>
+           <h3>审合同</h3>
+           <p class="price">原价: <span>1000</span>元/次</p>
+           <p class="nowprice">限时价: <span>238</span>元/次</p>
+        </div>
+         <div class="product product3">
+           <p class="pic"></p>
+           <h3>专业法律顾问</h3>
+           <p class="lprice"><span>3万/年</span>起</p>
+           <p class="contact">联系: gw@yuehetong.com</p>
+        </div>
+    </div>
+   </div>
+
+  <div class="service">
+      <div class="container">
+          <h2>悦合同专业服务范围</h2>
+            <div class="demo">
+               <a href="#" title = "股权相关合同服务">股权</a>
+            </div>
+            <div class="demo demo2">
+               <a href="#"  title = "互联网相关合同服务">互联网</a>
+            </div>
+            <div class="demo demo3">
+               <a href="#" title = "人事/劳动相关合同服务">人事/劳动</a>
+            </div>
+             <div class="demo demo4">
+               <a href="#" title = "金融相关合同服务">金融</a>
+            </div>
+             <div class="demo demo5">
+               <a href="#" title = "股权相关合同服务">担保</a>
+            </div>
+            <div class="demo demo6">
+               <a href="#" title = "服务相关合同服务">服务</a>
+            </div>
+            <div class="demo demo7">
+               <a href="#" title = "买卖相关合同服务">买卖</a>
+            </div>
+            <div class="demo demo8">
+               <a href="#" title = "知识产权相关合同服务">知识产权</a>
+            </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+           <nav>
+            <dl>
+                <dt>产品</dt>
+                <dd><a href="#">写合同</a></dd>
+                <dd><a href="#">审合同</a></dd>
+                <dd><a href="#">合同顾问</a></dd>
+            </dl>
+            <dl>
+                <dt>政策</dt>
+                <dd><a href="#">服务协议</a></dd>
+                <dd><a href="#">常见问题</a></dd>
+                <dd><a href="#">会员政策</a></dd>
+                <dd><a href="#">会员权益</a></dd>
+                <dd><a href="#">定价标准</a></dd>
+            </dl>
+            <dl>
+                <dt>公司</dt>
+                <dd><a href="#">品牌故事</a></dd>
+                <dd><a href="#">关于我们</a></dd>
+                <dd><a href="#">联系我们</a></dd>
+                <dd><a href="#">加入我们</a></dd>
+            </dl>
+            <dl>
+                <dt>资源</dt>
+                <dd><a href="#">网站地图</a></dd>
+                <dd><a href="#">意见反馈</a></dd>
+            </dl>
+         </nav>
+         <div class="info">
+             <p>&copy;悦合同</p>
+             <p><a href="#">www.yuehetong.com</a></p>
+             <p><a href="#">粤ICP备16004471号-1</a></p>
+             <p>版权所有 &copy; 广州诚心网络科技有限公司</p>
+         </div>
+      </div>
+
+    </footer>
+</body>
+<script src="js/jquery-1.12.4.js">
+</script>
+<script>
+   var $btn = $("header .btn");
+   var $nav2 = $("header .nav2");
+     $btn.click(function(){
+              $nav2.slideToggle();
+           });
+</script>
+</html>

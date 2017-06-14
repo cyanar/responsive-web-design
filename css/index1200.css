@@ -1,0 +1,279 @@
+body {
+    font-family:"microsoft Yahei";
+    // overflow:hidden;
+}
+a{
+    text-decoration:none;
+    color:#444;
+}
+.container {
+    width: 1170px;
+    margin:0 auto;
+}
+header {
+    width: 100%;
+    height:115px;
+    box-sizing:border-box;
+    padding-left:80px;
+    position:relative;
+}
+header h1.logo{
+    float:left;
+}
+header h1 a{
+     display:block;
+     text-decoration:none;
+     color:#35c1ec;
+     font-size:28px;
+}
+header h1 a::before {
+     content:"";
+     display:inline-block;
+     width: 195px;
+     height: 80px;
+     position:relative;
+     top:20px;
+     right:15px;
+     background:url("../images/logo.png") no-repeat 0 0;
+}
+header nav {
+    float:right;
+    height: 115px;
+    line-height: 115px;
+    margin-right:25px;
+}
+header nav li {
+    float:left;
+    font-size:16px;
+    margin:0 3px;
+    padding:3px 10px;
+}
+header nav li:nth-child(5)::before{
+     content:"";
+     display:inline-block;
+     width: 2px;
+     height: 30px;
+     position:relative;
+     top:10px;
+     right:13px;
+     border-right:1px solid #35c1ec;
+}
+header nav li a:hover {
+    background: #35c1ec;
+    color:#fff;
+    border-radius:5px;
+}
+header .btn {
+    float:right;
+    width: 40px;
+    height: 60px;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 60px;
+    position:absolute;
+    right:30px;
+    top:30px;
+    display:none;
+}
+header .btn:hover {
+    background: #35c1ec;
+    color:#fff;
+}
+header .nav2{
+    position:absolute;
+    border-bottom: 1px solid #ccc;
+    box-shadow: #bbb 0px 5px 10px;
+    width: 100%;
+    height: 162px;
+    top:100%;
+    left:0;
+    z-index:9;
+    background: #fff;
+    display:none;
+}
+header .nav2 div{
+   width: 100%;
+   height: 80px;
+   border-top:1px solid #ccc;
+   padding-top:24px;
+   box-sizing:border-box;
+   line-height: 32px;
+}
+header .nav2 div a{
+    float:right;
+    height: 40px;
+    margin-right:30px;
+    border-radius: 5px;
+    box-sizing:border-box;
+    padding:2px 5px;
+}
+header .nav2 div a:hover{
+     background: #35c1ec;
+    color:#fff;
+}
+.banner {
+   width: 100%;
+}
+.banner img {
+  width: 100%;
+  height:auto;
+  vertical-align: middle;
+}
+.products {
+     width: 100%;
+     height: 480px;
+     // background: #ccc;
+}
+.products h2 {
+    text-align:center;
+    font-size: 24px;
+    color:#333;
+    padding:60px 0px;
+}
+.products .product {
+    float:left;
+    width:360px;
+    height: 280px;
+    margin-right:30px;
+    padding:1px;
+    overflow:hidden;
+    box-sizing:border-box;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+.products .product .pic {
+   width: 100%;
+   height: 174px;
+   background: url("../images/product1.png") no-repeat center center;
+   background-color: #f97b39;
+}
+.products .product h3 {
+     font-size: 18px;
+     margin: 15px 0 10px 0;
+}
+.products .product .price,.products .product .nowprice {
+     color: #555;
+     font-size: 14px;
+}
+.products .product .price span {
+    text-decoration:line-through;
+}
+.products .product .nowprice span {
+    color:#ed711f;
+}
+.products .product2 .pic{
+    background: url("../images/product2.png") no-repeat center center;
+    background-color: #97cb26;
+}
+.products .product3 .pic{
+    background: url("../images/product3.png") no-repeat center center;
+    background-color: #fad716;
+}
+.products .product3 .lprice{
+    font-size: 14px;
+    color:#666;
+}
+.products .product3 .lprice span {
+     font-size: 18px;
+     color:#ed711f;
+}
+.products .product3 .contact {
+    color:#666;
+    font-size: 14px;
+}
+.service {
+     width: 100%;
+     overflow:hidden;
+     padding-bottom:40px;
+     background-color: #f5f5f5;
+}
+.service h2 {
+    text-align:center;
+    font-size: 24px;
+    color:#333;
+    padding:60px 0px 30px 0px;
+}
+.service .demo {
+    float:left;
+    width: 262px;
+    height: 174px;
+    margin:0px 15px;
+    margin-bottom:20px;
+    background: #e8b875 url("../images/service.png") no-repeat 50% -110px;
+}
+.service .demo a{
+    display:block;
+    width: 100%;
+    height: 100%;
+    color:#fff;
+    text-align:center;
+    font-size: 20px;
+    line-height: 280px;
+}
+.service .demo2{
+        background: #97cb26 url("../images/service.png") no-repeat 50% -1180px;
+}
+.service .demo3{
+        background: #6581c3 url("../images/service.png") no-repeat 50% -555px;
+}
+.service .demo4{
+        background: #68bcff url("../images/service.png") no-repeat 50% 30px;
+}
+.service .demo5{
+        background: #fad716 url("../images/service.png") no-repeat 50% -415px;
+}
+.service .demo6{
+        background: #fcbfdb url("../images/service.png") no-repeat 50% -265px;
+}
+.service .demo7{
+        background: #f97b39 url("../images/service.png") no-repeat 50% -1025px;
+}
+.service .demo8{
+        background: #baa1e2 url("../images/service.png") no-repeat 50% -865px;
+}
+footer {
+    width: 100%;
+    height: 194px;
+    padding-top:20px;
+    padding-bottom:40px;
+    background-color:#efefef;
+}
+footer nav {
+    float:left;
+}
+footer nav dl{
+    float:left;
+    width: 180px;
+}
+footer nav dl dt{
+    font-size: 18px;
+    color:#333;
+    margin-bottom:10px;
+}
+footer nav dl dd {
+    margin-bottom:8px;
+}
+footer nav dl dd a{
+    font-size: 14px;
+    color:#7a7a7a;
+}
+footer nav dl dd a:hover {
+    color:#259;
+}
+footer .info {
+    float:right;
+    width: 300px;
+    margin-top:40px;
+    text-align:right;
+    font-size: 14px;
+    color:#7a7a7a;
+}
+footer .info p{
+     margin-bottom:10px;
+}
+footer .info p a{
+     color:#7a7a7a;
+}
+footer .info p a:hover{
+     color:#259;
+}
